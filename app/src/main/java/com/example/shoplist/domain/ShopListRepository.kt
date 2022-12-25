@@ -1,6 +1,6 @@
 package com.example.shoplist.domain
 
-interface shopListRepository {
+interface ShopListRepository {
     fun addShopItem(shopItem: ShopItem)
 
     fun deleteShopItem(shopItem: ShopItem)
